@@ -42,7 +42,7 @@ install:
   - sdkmanager "build-tools;28.0.3"
   - sdkmanager "ndk-bundle"
 
-  - git clone --recursive https://github.com/SachinVin/citra.git C:\projects\citra > nul
+  - git clone --recursive https://github.com/WesleyVanNeck/citra.git C:\projects\citra > nul
 build_script:
   - cd C:\projects\citra-android
 
